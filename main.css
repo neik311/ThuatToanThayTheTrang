@@ -170,3 +170,25 @@
     background-color: rgb(19, 19, 248);
     margin-right: 5px;
 }
+@media(max-width:840px){
+    .input_data{
+        width: 80%;
+    }
+    .input_data >div{
+        width: 400px;
+    }
+    .style_input1 input , .style_input2 input{
+        width: 50%;
+    }
+    #header .title{
+        font-size: 18px;
+    }
+    .title p{
+        width: 350px;
+    }
+}
+@media(max-width:500px){
+    #main{
+        width: 800px;
+    }
+}
