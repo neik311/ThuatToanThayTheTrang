@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+    ;
+}
+#main{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(153, 238, 238);
+    position: relative;
+}
+#mybonus{
+    display: none;
+    position: absolute;
+    top :130px;
+    width: 800px;
+    height: 400px;
+    /*800-400*/
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:rgb(85, 166, 248);
+}
+#mybonus >p{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+#mybonus .xclose{
+    font-size: 20px;
+    width: 32px;
+    height: 30px;
+    padding: 5px 9px;
+    margin-left: 96%;
+    margin-bottom: 30px;
+}
+#mybonus .xclose:hover{
+    background-color: rgb(248, 46, 46);
+    cursor:pointer;
+}
+#header{
+   height: 150px;
+   background-color: rgb(132, 236, 236);
+   position: relative;
+}
+#header .bonus{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+#header .bonus:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#header .title{
+    font-size: 25px;
+    padding-top: 60px;
+}
+.title p{
+    width: 500px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: monospace,Arial, Helvetica, sans-serif;
+}
+#content{
+
+}
+.input_data{
+    height: 150px;
+    width: 800px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(166, 166, 224);
+    border-radius: 5px;
+}
+.input_data >div{
+    width: 600px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+.style_input1 .style_input2{
+    margin-bottom: 20px;
+}
+.style_input1 >p ,.style_input2 >p{
+    display: none;
+    font-size: 14px;
+    color: rgb(238, 36, 36);
+    padding-left: 190px;
+}
+.style_input1 input{
+    font-size: 14px;
+    width: 200px;
+    padding: 5px 2px;
+}
+.style_input2 input{
+    width: 400px;
+    padding: 5px 2px;
+    font-size: 14px;
+}
+.input_data input{
+    margin-left: 20px;
+
+    padding: 5px 2px;
+}
+.input_data >p{
+    font-size: 17px;
+    padding: 5px 10px;
+    width: 80px;
+    height: 30px;
+    margin: 0px auto;
+    background-color: burlywood;
+    border-radius: 5px;
+    transition: background-color 0.5s ;
+}
+.input_data >p:hover{
+    background-color: red;
+    cursor: pointer;
+}
+#table{
+    display: none;
+    margin-top: 40px;
+    width: 1px;/*with 52px */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#table table{
+}
+#table #my_table{
+}
+#table td{
+    font-size: 18px;
+    padding: 15px 10px;
+    background-color: rgba(32, 32, 32, 0.144);
+  /*background-color: rgb(75, 243, 243); */
+}
+#note{
+    display: none;
+    height: 150px;
+    width: 750px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+.note1{
+    display: flex;
+}
+.note1 b{
+    margin-right: 5px;
+}
+.note2 {
+    display:flex;
+    margin-top: 8px;
+    margin-left: 80px;
+}
+.note2 > p{
+    padding: 5px;
+}
+.noteImg{
+    font-size: 18px;
+    padding: 8px 6px;
+    border: 2px solid rgb(37, 37, 37);
+    background-color: rgb(19, 19, 248);
+    margin-right: 5px;
+}
