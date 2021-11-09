@@ -1,5 +1,4 @@
-const MAXWITH =50;
-const MAXHIGHT =9;
+
 class ListNode {
     constructor(data) {
         this.data = data
@@ -110,7 +109,7 @@ function outColor(){
     for(let listKey =list;listKey!=null;listKey=listKey.next){
                let key = table1[dem].getElementsByTagName('td')
                key[index].innerHTML = listKey.data.toString() +'('+ listKey.bit.toString() +')'
-               key[index].style.backgroundColor ='rgb(75, 243, 243)'
+               key[index].style.backgroundColor ='rgb(75, 243, 243)' // xanh lam
                dem++;
         }
     index++
@@ -134,7 +133,7 @@ function outColor(){
                     keyx[index-1].style.backgroundColor = 'rgb(19, 19, 248)';// blue
                     if(i!=0){
                       let keyx = table1[i].getElementsByTagName('td')
-                      keyx[index-1].style.backgroundColor = 'rgba(32, 32, 32, 0.144)';
+                      keyx[index-1].style.backgroundColor = 'rgb(75, 243, 243)';
                     }
                     i++;
                    if(i>=value){
@@ -149,11 +148,11 @@ function outColor(){
                     keyx[index-1].style.backgroundColor = 'rgb(19, 19, 248)';// blue
                     if(i!=0){
                       let keyx = table1[i].getElementsByTagName('td')
-                      keyx[index-1].style.backgroundColor = 'rgba(32, 32, 32, 0.144)';
+                      keyx[index-1].style.backgroundColor = 'rgb(75, 243, 243)';
                     }
                     else if(i==0 && kCheck==false){
                         let  keyx = table1[Trang].getElementsByTagName('td')
-                        keyx[index-1].style.backgroundColor = 'rgba(32, 32, 32, 0.144)';// blue
+                        keyx[index-1].style.backgroundColor = 'rgb(75, 243, 243)';
                     }
                     i++;
                     if(i>=value && kCheck ==false){
