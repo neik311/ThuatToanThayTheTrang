@@ -122,9 +122,8 @@ function outColor(){
       else if (size(list) == Trang) {
         value =check(list,arr[index])
         if (value !=-1){
-             list = deleteList(list,value)
              insertLast(list,arr[index])
-        }
+             list = deleteList(list,value)        }
         if(vongLap !=0){
             if(vongLap ==1){
                 let i=0 , delayTime2 = (value+1>3) ? (delayTime-50)/(value+1) : 200;
@@ -150,7 +149,7 @@ function outColor(){
                       let keyx = table1[i].getElementsByTagName('td')
                       keyx[index-1].style.backgroundColor = 'rgb(75, 243, 243)';
                     }
-                    else if(i==0 && kCheck==false){
+                    else if(i==0 && kCheck==false && Trang !=1){
                         let  keyx = table1[Trang].getElementsByTagName('td')
                         keyx[index-1].style.backgroundColor = 'rgb(75, 243, 243)';
                     }
